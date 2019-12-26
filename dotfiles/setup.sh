@@ -5,7 +5,7 @@ RESET="\e[0m"
 GREEN="$BOLD\e[32m"
 BLUE="$BOLD\e[34m"
 
-scripts="$(\ls *.sh | grep "^\d")"
+scripts="$(\ls scripts/*.sh | grep "\d")"
 
 echo "> Initializing..."
 echo
